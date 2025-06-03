@@ -1,0 +1,19 @@
+POST http://localhost:8080/api/items/books
+Content-Type: application/json
+
+{
+    "name": "Spring Boot in Action",
+    "price": 45,
+    "pd": "2024-01-01",
+    "isbn": "3"
+}
+
+###
+
+DELETE  http://localhost:8080/api/items/books/4
+
+###
+PUT http://localhost:8080/api/items/books/1?name=puy&price=98
+
+###
+GET http://localhost:8080/api/items/books/1
